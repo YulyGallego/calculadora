@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(img/fonfo.webp);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container1{
+  width: 50%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #9acef8;
+}
+
+#container{
+  width: 50%;
+  height: 50%;
+  background-color:#c3e3fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#p1{
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    font-size: 2rem;
+}
+
+#num1{
+    height: 2.5rem;
+    width: 13rem;
+    background-color: #e8f5ff;
+    margin: 1rem;
+    border-radius: 10px;
+    border: solid 3px;
+    font-size: 1.3rem;
+}
+
+#num2{
+    height: 2.5rem;
+    width: 13rem;
+    background-color: #e8f5ff;
+    margin: 1rem;
+    border-radius: 10px;
+    border: solid 3px;
+    font-size: 1.3rem;
+}
+
+#signo{
+    height: 2.5rem;
+    width: 13rem;
+    background-color: #e8f5ff;
+    margin: 1rem;
+    border-radius: 10px;
+    border: solid 3px;
+    font-size: 1.3rem;
+}
+
+#resultado{
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    font-size: 2rem;
+}
